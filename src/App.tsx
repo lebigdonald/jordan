@@ -196,12 +196,13 @@ function App() {
                             <div className="flex flex-wrap gap-4">
                                 <button
                                     className="px-8 py-4 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2">
-                                    <span className="font-semibold">View Portfolio</span>
+                                    <span className="font-semibold">
+                                        <a href="#projects">View Portfolio</a></span>
                                     <ArrowRight className="w-5 h-5"/>
                                 </button>
                                 <button
                                     className="px-8 py-4 bg-white text-slate-700 border-2 border-slate-300 rounded-lg hover:border-emerald-600 hover:text-emerald-600 transition-all duration-200 font-semibold">
-                                    Schedule Consultation
+                                    <span><a href="#contact">Schedule Consultation</a></span>
                                 </button>
                             </div>
                             <div className="grid grid-cols-3 gap-6 pt-4">
@@ -432,7 +433,7 @@ function App() {
                                         </div>
                                         <div>
                                             <div className="font-semibold">Phone</div>
-                                            <div className="text-emerald-50">+237 6 7464 7877</div>
+                                            <div className="text-emerald-50"><a href="tel:+33743647877">+33743647877</a></div>
                                         </div>
                                     </div>
                                     <div className="flex items-center space-x-4">
