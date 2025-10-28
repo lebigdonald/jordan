@@ -423,7 +423,9 @@ function App() {
                                         </div>
                                         <div>
                                             <div className="font-semibold">Email</div>
-                                            <div className="text-emerald-50">ibrasoura@yahoo.com</div>
+                                            <div className="text-emerald-50">
+                                                <a href="mailto:ibrasoura@yahoo.com">ibrasoura@yahoo.com</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="flex items-center space-x-4">
@@ -462,20 +464,20 @@ function App() {
                             <div className="bg-white rounded-2xl p-8">
                                 <form className="space-y-4" action="https://formspree.io/f/xovpenen" method="POST">
                                     <div>
-                                        <input type="text" placeholder="Your Name" name="name" required
+                                        <input type="text" placeholder="Your Name" name="name"
                                                className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 outline-none transition-all text-slate-900"/>
                                     </div>
                                     <div>
-                                        <input type="email" placeholder="Your Email" name="_replyto" required
-                                               className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 outline-none transition-all text-slate-900"/>
+                                        <input type="email" placeholder="Your Email* (required)" name="_replyto" required
+                                               className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 invalid:accent-red-600 invalid:ring-2 outline-none transition-all text-slate-900"/>
                                     </div>
                                     <div>
                                         <input type="text" placeholder="Company Name" name="company"
                                                className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 outline-none transition-all text-slate-900"/>
                                     </div>
                                     <div>
-                                        <textarea placeholder="Tell me about your project" rows={4} name="message" required
-                                                  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 outline-none transition-all resize-none text-slate-900"></textarea>
+                                        <textarea placeholder="Tell me about your project* (required)" rows={5} name="message" required
+                                                  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 invalid:accent-red-600 invalid:ring-2 outline-none transition-all resize-none text-slate-900"></textarea>
                                     </div>
                                     <input type="hidden" name="_subject" value="SouraTech Contact Form"/>
                                     <input type="hidden" name="_next" value="https://soura-tech.vercel.app"/>
