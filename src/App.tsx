@@ -339,7 +339,7 @@ function App() {
                 </div>
             </section>
 
-            <section className="py-20 px-4 bg-white">
+            <section id="proves" className="py-20 px-4 bg-white">
                 <div className="max-w-7xl mx-auto">
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div>
@@ -534,12 +534,11 @@ function App() {
                         <div>
                             <h3 className="font-bold mb-4">Quick Links</h3>
                             <div className="space-y-2 text-slate-400">
-                                <div className="hover:text-emerald-400 transition-colors cursor-pointer">Portfolio</div>
-                                <div className="hover:text-emerald-400 transition-colors cursor-pointer">GitHub
-                                    Projects
+                                <div className="hover:text-emerald-400 transition-colors cursor-pointer">
+                                    <a href="#projects">Portfolio</a>
                                 </div>
-                                <div
-                                    className="hover:text-emerald-400 transition-colors cursor-pointer">Certifications
+                                <div className="hover:text-emerald-400 transition-colors cursor-pointer">
+                                    <a href="#proves">Certifications</a>
                                 </div>
                             </div>
                         </div>
