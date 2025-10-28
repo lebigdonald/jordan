@@ -141,7 +141,7 @@ function App() {
                                className="text-slate-700 hover:text-emerald-600 transition-colors font-medium">Contact</a>
                             <button
                                 className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-200">
-                                Get Started
+                                <span><a href="#contact">Get Started</a></span>
                             </button>
                         </div>
 
@@ -167,7 +167,7 @@ function App() {
                                className="block text-slate-700 hover:text-emerald-600 transition-colors font-medium">Contact</a>
                             <button
                                 className="w-full px-6 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-lg">
-                                <a href="#home">Get Started</a>
+                                <span><a href="#contact">Get Started</a></span>
                             </button>
                         </div>
                     </div>
