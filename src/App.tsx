@@ -167,7 +167,7 @@ function App() {
                                className="block text-slate-700 hover:text-emerald-600 transition-colors font-medium">Contact</a>
                             <button
                                 className="w-full px-6 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-lg">
-                                Get Started
+                                <a href="#home">Get Started</a>
                             </button>
                         </div>
                     </div>
