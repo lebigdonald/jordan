@@ -180,18 +180,18 @@ function App() {
                         <div className="space-y-6">
                             <div className="inline-block">
                 <span className="px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold">
-                  Based in Cameroon • Serving Global Clients
+                  Based in France • Serving Global Clients
                 </span>
                             </div>
                             <h1 className="text-5xl md:text-6xl font-bold text-slate-900 leading-tight">
                                 World-Class Software,
                                 <span
-                                    className="bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent"> Built in Africa</span>
+                                    className="bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent"> Built in Europe</span>
                             </h1>
                             <p className="text-xl text-slate-600 leading-relaxed">
                                 Senior Full Stack Developer with 7+ years building scalable web and cloud applications
                                 for international companies. From San Francisco to London to Berlin, delivering
-                                excellence remotely from Cameroon.
+                                excellence remotely from France.
                             </p>
                             <div className="flex flex-wrap gap-4">
                                 <button
@@ -225,7 +225,7 @@ function App() {
                                 className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-teal-400 rounded-2xl blur-3xl opacity-20"></div>
                             <img
                                 src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                                alt="Software development in Cameroon"
+                                alt="Software development in France"
                                 className="relative rounded-2xl shadow-2xl"
                             />
                         </div>
@@ -443,7 +443,7 @@ function App() {
                                         </div>
                                         <div>
                                             <div className="font-semibold">Location</div>
-                                            <div className="text-emerald-50">Cameroon, Central Africa</div>
+                                            <div className="text-emerald-50">France, Europe</div>
                                         </div>
                                     </div>
                                     <div className="flex items-center space-x-4">
@@ -510,7 +510,7 @@ function App() {
                                 <span className="text-xl font-bold">SouraTech</span>
                             </div>
                             <p className="text-slate-400">
-                                World-class software development from Cameroon to the world.
+                                World-class software development from France to the world.
                             </p>
                         </div>
                         <div>
@@ -544,7 +544,7 @@ function App() {
                         </div>
                     </div>
                     <div className="border-t border-slate-800 pt-8 text-center text-slate-400">
-                        <p>&copy; 2024 SouraTech - Ibrahima Sourabie. Senior Full Stack Developer based in Cameroon.</p>
+                        <p>&copy; 2024 SouraTech - Ibrahima Sourabie. Senior Full Stack Developer based in France.</p>
                     </div>
                 </div>
             </footer>
