@@ -459,11 +459,12 @@ function App() {
                                 </div>
                             </div>
                             <div className="bg-white rounded-2xl p-8">
-                                <form className="space-y-4">
+                                <form className="space-y-4" action="https://formspree.io/f/xovpenen" method="POST">
                                     <div>
                                         <input
                                             type="text"
                                             placeholder="Your Name"
+                                            name="name"
                                             className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 outline-none transition-all text-slate-900"
                                         />
                                     </div>
@@ -471,6 +472,7 @@ function App() {
                                         <input
                                             type="email"
                                             placeholder="Your Email"
+                                            name="email"
                                             className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 outline-none transition-all text-slate-900"
                                         />
                                     </div>
@@ -478,6 +480,7 @@ function App() {
                                         <input
                                             type="text"
                                             placeholder="Company Name"
+                                            name="company"
                                             className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 outline-none transition-all text-slate-900"
                                         />
                                     </div>
@@ -485,6 +488,7 @@ function App() {
                     <textarea
                         placeholder="Tell me about your project"
                         rows={4}
+                        name="message"
                         className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 outline-none transition-all resize-none text-slate-900"
                     ></textarea>
                                     </div>
