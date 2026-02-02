@@ -424,7 +424,7 @@ function App() {
                                         <div>
                                             <div className="font-semibold">Email</div>
                                             <div className="text-emerald-50">
-                                                <a href="mailto:ibrasoura@yahoo.com">ibrasoura@yahoo.com</a>
+                                                <a href="mailto:jordanwanda29@gmail.com">jordanwanda29@gmail.com</a>
                                             </div>
                                         </div>
                                     </div>
