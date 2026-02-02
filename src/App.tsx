@@ -186,7 +186,7 @@ function App() {
                             <h1 className="text-5xl md:text-6xl font-bold text-slate-900 leading-tight">
                                 World-Class Software,
                                 <span
-                                    className="bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent"> Built in Europe</span>
+                                    className="bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent"> Developer in Europe</span>
                             </h1>
                             <p className="text-xl text-slate-600 leading-relaxed">
                                 Senior Full Stack Developer with 7+ years building scalable web and cloud applications
@@ -499,7 +499,7 @@ function App() {
                         <div>
                             <div className="flex items-center space-x-2 mb-4">
                                 <Code2 className="w-8 h-8 text-emerald-500"/>
-                                <span className="text-xl font-bold">SouraTech</span>
+                                <span className="text-xl font-bold">Jordan Wanda</span>
                             </div>
                             <p className="text-slate-400">
                                 World-class software development from France to the world.
@@ -536,7 +536,7 @@ function App() {
                         </div>
                     </div>
                     <div className="border-t border-slate-800 pt-8 text-center text-slate-400">
-                        <p>&copy; 2024 SouraTech - Ibrahima Sourabie. Senior Full Stack Developer based in France.</p>
+                        <p>&copy; 2026 Jordan Wanda. Senior Full Stack Developer based in France.</p>
                     </div>
                 </div>
             </footer>
