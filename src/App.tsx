@@ -126,7 +126,7 @@ function App() {
                             <Code2 className="w-8 h-8 text-emerald-600"/>
                             <span
                                 className="text-xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
-                SouraTech
+                Jordan Wanda
               </span>
                         </div>
 
