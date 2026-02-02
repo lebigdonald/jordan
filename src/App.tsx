@@ -479,8 +479,8 @@ function App() {
                                         <textarea placeholder="Tell me about your project* (required)" rows={5} name="message" required
                                                   className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 invalid:accent-red-600 invalid:ring-2 outline-none transition-all resize-none text-slate-900"></textarea>
                                     </div>
-                                    <input type="hidden" name="_subject" value="SouraTech Contact Form"/>
-                                    <input type="hidden" name="_next" value="https://soura-tech.vercel.app"/>
+                                    <input type="hidden" name="_subject" value="Jordan-Wanda Contact Form"/>
+                                    <input type="hidden" name="_next" value="https://jordan-wanda.vercel.app"/>
                                     <button type="submit"
                                             className="w-full px-6 py-4 bg-gradient-to-r from-slate-900 to-slate-700 text-white rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-200 font-semibold">
                                         Send Message
