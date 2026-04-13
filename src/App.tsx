@@ -190,7 +190,7 @@ function App() {
                             </h1>
                             <p className="text-xl text-slate-600 leading-relaxed">
                                 Senior Full Stack Developer with 7+ years building scalable web and cloud applications
-                                for international companies. From San Francisco to London to Berlin, delivering
+                                for international companies. From San Francisco to London to Dubai, delivering
                                 excellence remotely from France.
                             </p>
                             <div className="flex flex-wrap gap-4">
@@ -435,7 +435,7 @@ function App() {
                                         </div>
                                         <div>
                                             <div className="font-semibold">Phone</div>
-                                            <div className="text-emerald-50"><a href="tel:+33743647877">+33743647877</a>
+                                            <div className="text-emerald-50"><a href="tel:+33743647877">+447587976672</a>
                                             </div>
                                         </div>
                                     </div>
@@ -446,7 +446,7 @@ function App() {
                                         </div>
                                         <div>
                                             <div className="font-semibold">Location</div>
-                                            <div className="text-emerald-50">France, Europe</div>
+                                            <div className="text-emerald-50">Worldwide</div>
                                         </div>
                                     </div>
                                     <div className="flex items-center space-x-4">
